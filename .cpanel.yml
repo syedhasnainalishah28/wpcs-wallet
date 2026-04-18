@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/globalre/wpcs.network/
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/globalre/wpcs.network
+    - /bin/cp -rf * $DEPLOYPATH/
